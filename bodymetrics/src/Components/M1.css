@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #c8e6c9, #b0a5d6);
+  color: #000000;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  color: #241b5e;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #3c388e;
+}
+
+.button-section {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn {
+  background: #4345a0;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn:hover {
+  background: #2e3f7d;
+  transform: scale(1.05);
+}
+
+.exercise-section {
+  margin: 30px auto;
+  width: 80%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-section h2 {
+  margin-bottom: 20px;
+  color: #1d1b5e;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+.nav-btn {
+  background: #6a66bb;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px; 
+}
+
+.nav-btn:hover {
+  background: #2e3a7d;
+  transform: scale(1.1);
+}
+
+.slide {
+  flex: 1;
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.slide img {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.slide h3 {
+  margin: 15px 0 5px;
+  font-size: 1.6rem;
+  color: #322e7d;
+}
+
+.slide p {
+  color: #5e4caf;
+  font-size: 1rem;
+}
+
+.footer {
+  margin-top: auto;
+  background: #3e2e7d;
+  color: white;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.main-container{
+  width: 100%;
+  height: 91vh;
+}

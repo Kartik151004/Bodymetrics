@@ -1,0 +1,149 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+.profile-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #fdfcf8;
+  border-radius: 12px;
+  border: 1px solid #d4c7b0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+.profile-card {
+  background: #fffdfa;
+  padding: 18px 20px;
+  border-radius: 10px;
+  border: 1px solid #cbb994;
+  margin-bottom: 20px;
+}
+
+.profile-card h1 {
+  margin-bottom: 10px;
+  color: #3b2f1e;
+  font-weight: bold;
+}
+
+
+.health-inputs {
+  background: #fffdfa;
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid #cbb994;
+  margin-bottom: 20px;
+}
+
+.health-inputs h2 {
+  color: #4b3c25;
+  margin-bottom: 12px;
+}
+
+.health-inputs input,
+.health-inputs select {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 12px 0;
+  border: 1px solid #b8a27d;
+  border-radius: 6px;
+  background: #fdfbf6;
+  font-size: 1rem;
+}
+
+.health-inputs .btn {
+  background: #45547c;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.health-inputs .btn:hover {
+  background: #36276b;
+}
+
+
+.results-section {
+  background: #fffdfa;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cbb994;
+  margin-bottom: 20px;
+}
+
+.results-section h2 {
+  color: #2f5132;
+  font-weight: bold;
+}
+
+.results-section p {
+  margin: 5px 0;
+}
+
+
+.suggestions-section {
+  background: #fffdfa;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cbb994;
+  margin-bottom: 20px;
+}
+
+.suggestions-section h2 {
+  color: #391470;
+}
+
+.suggestions-section ul {
+  padding-left: 20px;
+}
+
+.suggestions-section li {
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+
+.health-section {
+  background: #fffdfa;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cbb994;
+  margin-bottom: 20px;
+}
+
+.health-section ul {
+  padding-left: 20px;
+}
+
+
+.quote-section {
+  background: #fcf8f2;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cbb994;
+  margin-bottom: 20px;
+  border-left: 4px solid #7c6745;
+}
+
+.quote-section blockquote {
+  margin: 0;
+  font-style: italic;
+  color: #2d254b;
+}
+
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  color: #d3cabd;
+  font-size: 0.9rem;
+  border-top: 1px solid #cbb994;
+}

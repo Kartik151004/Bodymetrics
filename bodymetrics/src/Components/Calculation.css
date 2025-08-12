@@ -1,0 +1,70 @@
+.main_bmi {
+  text-align: center;
+    margin: 20px auto;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 10%;
+    top: 131px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bmi_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.bmi_form label {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bmi_form input {
+  padding: 8px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.result span {
+  color: red;
+}
+
+.bmi_image {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+.maine{
+  background-image: url("https://bcbstwelltuned.com/wp-content/uploads/2018/06/BMI-e1529500631421.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+    height: 86vh;
+  font-family: 'Times New Roman', Times, serif;}
